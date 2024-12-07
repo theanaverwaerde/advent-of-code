@@ -16,3 +16,9 @@ Change day on the command to test code
 ```bash
 DAY=01 && cd 2024/$DAY/ && go run main.go && cd ../..
 ```
+
+For Part Two
+
+```bash
+DAY=01 && cd '2024/'$DAY' part two/' && go run main.go && cd ../..
+```
